@@ -10,7 +10,7 @@
 
         public function index()
         {
-            $produits= $this->fichiers->list();
+            $images= $this->fichiers->list();
             include_once './view/produits/list.php';
         }
         public function insert()
